@@ -1,3 +1,7 @@
+mod 'apt',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :ref => '47c6f338eda98ed849531d92b63c5e33103f76e4'
+
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
   :ref => 'ececd065ce095ec0a2e5d12860b4e4b5a9e708f6'
