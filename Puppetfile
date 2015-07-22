@@ -4,7 +4,7 @@ mod 'apt',
 
 mod 'ceph',
   :git => 'https://github.com/stackforge/puppet-ceph.git',
-  :ref => 'b6ab15b47c81d7694fdcfd75d8f2e0a0481ca40c'
+  :ref => '38c4cacd423ece462a1c72837d175aeb8e1f67db'
 
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
