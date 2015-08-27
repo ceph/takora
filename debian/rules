@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+export INSTALLDIR=$(CURDIR)/debian/takora
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	find . -type f -name ".*" -exec rm {} +
+	# Install all the modules found in the puppetfile instead
+	# of listing them all separately. That way new additions are
+	# picked up automatically
+	cp -pr `grep ^mod Puppetfile |cut -d\' -f2` $(INSTALLDIR)/usr/share/ceph-puppet/modules/

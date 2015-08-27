@@ -1,0 +1,13 @@
+Source: takora
+Maintainer: Travis Rhoden <trhoden@redhat.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: takora
+Architecture: all
+Depends: ${misc:Depends}
+Description: Puppet modules for Ceph installation
+ A collection of Puppet modules which are required to install and configure
+ Ceph via installers using Puppet configuration tool.
