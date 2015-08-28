@@ -32,3 +32,9 @@ to the commit message, push the branch and [initiate a pull request](https://hel
 
     git commit --amend
     git push --set-upstream origin ntp
+
+Packaging
+=========
+
+To create a debian package, run `dpkg-buildpackage -us -uc`. You will find the
+packages in the parent directory of your current working directory.
