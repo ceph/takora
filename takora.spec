@@ -31,6 +31,6 @@ cp -p Puppetfile %{buildroot}/%{_datadir}/ceph-puppet/
 %files
 %{!?_licensedir:%global license %%doc}
 %license LICENSE
-%doc README.md
+%doc README.md CHANGELOG.md
 %{_datadir}/ceph-puppet/modules/*
 %{_datadir}/ceph-puppet/Puppetfile
