@@ -1,3 +1,9 @@
+takora (0.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ken Dreyer <kdreyer@redhat.com>  Mon, 14 Dec 2015 10:14:37 -0700
+
 takora (0.1.1-1) unstable; urgency=low
 
   * Initial release.

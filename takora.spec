@@ -1,5 +1,5 @@
 Name:           takora
-Version:        0.1.1
+Version:        0.1.2
 Release:        1%{?dist}
 Summary:        Puppet modules for Ceph installation
 License:        ASL 2.0
